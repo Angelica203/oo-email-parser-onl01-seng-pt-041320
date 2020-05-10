@@ -7,11 +7,10 @@ class EmailParser
 
   def initialize(cvs_emails)
     @cvs_emails = cvs_emails
-    @EmailParser = EmailParser
   end
 
  def parse
-   cvs_emails.spilt. collect do |address| address.split (',')
+   cvs_emails.spilt. collect do |address| address.split(',')
    end
    .flatten.uniq
    end
