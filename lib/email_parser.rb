@@ -21,4 +21,4 @@ emails1 = "avi@test.com, arel@test.com"
 parser1 = EmailParser.new (emails1)
 parser1.parse
 
-emails2 = 
+emails2 =
