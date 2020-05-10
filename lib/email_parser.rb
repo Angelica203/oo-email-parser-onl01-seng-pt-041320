@@ -17,10 +17,10 @@ class EmailParser
    end
 end
 
-emails1 = "avi@test.com, arel@test.com"
+emails1 = "asd@qw.com, per@er.org, Zaza@sugar.net"
 parser1 = EmailParser.new (emails1)
 parser1.parse
 
-emails2 = "avi@test.com arel@test.com"
+emails2 = "asd@qw.com per@er.org Zaza@sugar.net"
 parser2 = EmailParser.new(emails2)
 parser2.parse
