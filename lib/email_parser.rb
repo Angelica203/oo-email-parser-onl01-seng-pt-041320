@@ -11,7 +11,7 @@ class EmailParser
   end
 
  def parse
-   parse cvs_emails.spilt. collect do |address| address.split (',')
+   cvs_emails.spilt. collect do |address| address.split (',')
    end
    .flatten.uniq
    end
